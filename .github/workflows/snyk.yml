@@ -18,3 +18,5 @@ jobs:
         uses: snyk/actions/gradle-jdk17@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --all-projects
