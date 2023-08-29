@@ -1,0 +1,10 @@
+custom_rules:
+  - id: 'Flutter Path traversal - top'
+    description: 'Strings passed from Dart should be sanitized'
+    severity: 'low'
+    cwe:
+      - 'CWE-22'
+    fix_analysis: ''
+    rule_code: 'Taint<"argument", PRED:PTSanitizer, PRED:PtSink>'
+    languages:
+      - 'java'
