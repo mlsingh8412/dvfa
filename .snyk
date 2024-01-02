@@ -1,10 +1,10 @@
 custom_rules:
-  - id: 'Flutter Path Traversal'
-    description: 'Strings passed from Dart should be sanitized'
-    severity: 'low'
-    cwe:
-      - 'CWE-22'
+  - id: Flutter Path Traversal
+    description: Strings passed from Dart should be sanitized
+    severity: low
+    cwe: 
+      - CWE-22
     fix_analysis: ''
-    rule_code: 'Taint<"argument", PRED:PtSanitizer, PRED:PtSink>'
+    rule_code: Taint<"argument", PRED:PtSanitizer, PRED:PtSink>
     languages:
-      - 'java'
+      - java
