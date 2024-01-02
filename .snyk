@@ -5,6 +5,6 @@ custom_rules:
     cwe:
       - 'CWE-22'
     fix_analysis: ''
-    rule_code: 'Taint<"argument", PRED:PTSanitizer, PRED:PtSink>'
+    rule_code: 'Taint<"argument", PRED:PtSanitizer, PRED:PtSink>'
     languages:
       - 'java'
