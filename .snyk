@@ -1,5 +1,5 @@
 custom_rules:
-  - id: 'Flutter Path traversal'
+  - id: 'Flutter Path Traversal'
     description: 'Strings passed from Dart should be sanitized'
     severity: 'low'
     cwe:
