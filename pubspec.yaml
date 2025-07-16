@@ -17,6 +17,7 @@ dependencies:
   flutter_downloader: 1.11.0
   local_auth: ^2.3.0
   google_maps_flutter: ^2.10.0
+  encrypt: ^5.0.3
 
   cupertino_icons: ^1.0.2
 
